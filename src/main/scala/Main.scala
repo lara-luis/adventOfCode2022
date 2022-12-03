@@ -6,5 +6,5 @@ object Main extends App {
     val lines = Source.fromFile("C:\\git\\adventOfCode2022\\input3.txt").getLines.toList 
     var res1 = day3.part1(lines)
     val res2 = day3.part2(lines)
-    println(res2)
+    println(res1)
 }
